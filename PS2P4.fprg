@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="super"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-30 08:45:57 PM"/>
+        <attribute name="created" value="c3VwZXI7REVTS1RPUC0ySzNRT1FNOzIwMjItMDEtMzA7MDg6NDE6MjggUE07MjkxMw=="/>
+        <attribute name="edited" value="c3VwZXI7REVTS1RPUC0ySzNRT1FNOzIwMjItMDEtMzA7MDg6NDU6NTcgUE07MTszMDI3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lastname" type="Real" array="False" size=""/>
+            <declare name="creditstaken" type="Real" array="False" size=""/>
+            <output expression="lastname" newline="True"/>
+            <assign variable="percredithr" expression="250"/>
+            <assign variable="labfee" expression="100"/>
+            <output expression="&quot;Your tuition fee is&quot;&amp; tuitionfee" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
